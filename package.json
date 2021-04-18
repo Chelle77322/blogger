@@ -1,0 +1,38 @@
+{
+  "name": "blogger",
+  "version": "1.0.0",
+  "description": "A CMS Style blog site to share thoughts and ideas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chelle77322/blogger.git"
+  },
+  "keywords": [
+    "CMS",
+    "Content",
+    "Management",
+    "System",
+    "Heroku",
+    "Handlebars"
+  ],
+  "author": "Michelle Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chelle77322/blogger/issues"
+  },
+  "homepage": "https://github.com/Chelle77322/blogger#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.0",
+    "express.js": "^1.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
