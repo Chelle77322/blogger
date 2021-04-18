@@ -32,6 +32,11 @@
   
   header {
     margin-top: 50px;
+    padding:5px;
+    position:inherit;
+    font-size: 48px;
+    font-family: 'Wallpoet', 'sans-serif';
+    color: #5d473a;
   }
   
   main {
