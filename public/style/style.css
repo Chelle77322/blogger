@@ -57,7 +57,7 @@
   }
   
   header {
-    margin-top: 50px;
+    margin-top: 5px;
     padding:5px;
     position:inherit;
     font-size: 48px;
@@ -66,14 +66,16 @@
   }
   
   main {
-    margin: 40px auto;
-    width: 94%;
+    padding:5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    float:right;
+    display:block;
+    width: 85%;
+    height: 85%;
+    background-image: linear-gradient(to bottom,#baaa91, #ae9a64);
   }
-  
-  a {
-    text-decoration: none;
-  }
-  
+    
   input {
       width: 100%;
       border: 1px solid #ccc;
