@@ -125,6 +125,7 @@
   }
   .footer{
     display: inline-block;
+    max-width: 100%;
     padding: 1em;
     margin-bottom: .5em;
     background-image:linear-gradient(to bottom,#a7a564, #e95f5c);
