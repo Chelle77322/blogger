@@ -84,9 +84,7 @@
       padding: 10px;
   }
   
-  .card-header h2 {
-    color: var(--primary);
-  }
+
   
   .btn {
     color:#1e4b5c;
@@ -108,12 +106,8 @@
    
   }
   
-  .btn-inline {
-    display: inline;
-  }
-  
   .link {
-    display: inline;
+    display:block;
     font-size: 16px;
     font-family: 'Wallpoet';
     color:#ffeee9;
@@ -125,7 +119,7 @@
     height: 300px;
     padding: 10px;
     margin-top: 100px;
-    position: right;
+    float: right;
     background-image:linear-gradient(to bottom, #e95f5c, #a7a564);
   
   }
@@ -133,14 +127,10 @@
   
   .hero {
     padding: 3% 4%;
-    background-image: url("/public/images/background.jpg");
+    background-image:url("/public/images/background.jpg");
     background-size: cover;
   }
-  
-  .hero p {
-    max-width: 75%;
-  }
-  
+    
   .app-title {
     font-size: 3rem;
     background-color: var(--primary);
