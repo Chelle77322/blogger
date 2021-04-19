@@ -1,5 +1,4 @@
 
-  
   * {
     box-sizing: border-box;
   }
@@ -28,7 +27,8 @@
     font-size: 35px;
     color: #ffeee9;
   }
-  h3 {padding-top: 10px;
+  h3 {
+  padding-top: 10px;
   font-family: 'Wallpoet', 'sans-serif';
   font-size: 20px;
   color:#ffeee9;
@@ -42,11 +42,18 @@
   }
   
   h2 a:visited {
-    color: var(--tertiary);
+    padding-top: 10px;
+    font-family: 'Wallpoet', 'sans-serif';
+    font-size: 20px;
+    color:#9f57bb;
+    
   }
   
   h2 a {
-    color: var(--primary);
+    padding-top: 10px;
+    font-family: 'Wallpoet', 'sans-serif';
+    font-size: 20px;
+    color:#54d896;
   }
   
   header {
@@ -59,16 +66,12 @@
   }
   
   main {
-    margin: 20px auto;
+    margin: 40px auto;
     width: 94%;
   }
   
   a {
     text-decoration: none;
-  }
-  
-  p {
-    font-size: 1.2rem;
   }
   
   input {
@@ -116,8 +119,10 @@
   
   .navbar {
     width: 100%;
+    height: 300px;
+    padding: 10px;
     position: fixed;
-    background-color: var(--dark);
+  
   }
   
   .nav-item {
