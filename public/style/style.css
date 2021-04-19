@@ -110,8 +110,12 @@
     display: inline;
   }
   
-  .li-inline {
+  .link {
     display: inline;
+    font-size: 16px;
+    font-family: 'Wallpoet';
+    color:#ffeee9;
+    text-align: right;
   }
   
   .navbar {
