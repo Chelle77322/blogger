@@ -125,6 +125,8 @@
   }
 
   .hero {
+    padding: 1em;
+    margin-top: 6em;
     background-image:url("/background.jpg");
     background-size: cover;
   }
