@@ -125,56 +125,30 @@
   }
 
   .hero {
-    background-image:url("public/images/background.jpg");
+    background-image:url("/background.jpg");
     background-size: cover;
   }
-    
-  .app-title {
-    font-size: 3rem;
-    background-color: var(--primary);
-    color: var(--dark);
-    padding: 0 10px;
-    display: inline-block;
-    border-radius: var(--border-radius);
-    box-shadow: 6px 5px var(--light-dark);
-  }
-  
-  .app-title a {
-    color: var(--dark);
-  }
-  
-  .list-group {
-    padding: 1%;
-  }
-  
-  .list-item {
-    margin-bottom: 10px;
-    padding: 1.5%;
-    border-radius: var(--border-radius);
-    background-color: var(--light-dark);
-    color: var(--primary);
-    text-decoration: none;
-  }
-  
-  .list-item:hover {
-    background-color: var(--dark);
-  }
+
   
   .footer a {
     display: inline-block;
     padding: 1em;
     margin-bottom: .5em;
-    background-color: var(--dark);
-    color: var(--primary);
-    border-radius: var(--border-radius);
+    background-image:linear-gradient(to bottom,#a7a564, #e95f5c);
     text-decoration: none;
   }
   
   /* CARDS */
   .card {
-    margin: 0 0 20px 0;
-    border: 3px solid var(--dark);
-    border-radius: var(--border-radius);
+    padding: 5px;
+    margin-top:5px;
+    position:inherit;
+    background-image:linear-gradient(to bottom right,#baaa91,#ae9a64);
+    width: 75%;
+    height: 75%;
+    -moz-box-shadow: 5px 7px 9px rgba(119, 97, 24, 0.5);
+    -webkit-box-shadow: 5px 7px 9px rgba(0,0,0,.5);
+    box-shadow: 5px 7px 9px rgba(0,0,0,.5);
   }
   
   .card-header {
