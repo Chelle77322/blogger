@@ -103,8 +103,8 @@
   }
   
   .btn:hover {
-    color: var(--primary);
-    background-color: var(--tertiary);
+    color:#1e4b5c;
+    background-color: #5cc3e8;
     transform: translate(0, 0);
     box-shadow: 2px 2px var(--dark);
   }
@@ -122,6 +122,7 @@
     height: 300px;
     padding: 10px;
     position: fixed;
+    background-image:linear-gradient(to bottom, #e95f5c, #a7a564);
   
   }
   
