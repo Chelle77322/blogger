@@ -129,19 +129,12 @@
     background-image:linear-gradient(to bottom, #e95f5c, #a7a564);
   
   }
-  
-  .nav-item {
-    margin: 0 40px;
-  }
-  
-  .nav-item a {
-    color: var(--primary);
-  }
+
   
   .hero {
     padding: 3% 4%;
-    background-color: var(--dark);
-    color: var(--primary);
+    background-image: url("/public/images/background.jpg");
+    background-size: cover;
   }
   
   .hero p {
