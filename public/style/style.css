@@ -182,7 +182,7 @@
 
   }
   .posts{
-    z-index: inherit;
+    z-index:0;
     background-color: #eee9e8;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
