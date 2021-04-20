@@ -4,48 +4,52 @@
   }
   
   body {
-    background-image:linear-gradient(to bottom left,#5d473a, #baaa91 ) ;
+    background-image:url("/images/background.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-blend-mode: luminosity;
     padding: 0%;
     margin: auto;
   }
   .wrapper{
-    background-image:linear-gradient(to bottom, #30132a,#5be624);
-    padding: 0%;
+    background-image:linear-gradient(to bottom, #383737, #a7a564);
+    padding: 3%;
     margin: auto;
-    margin-top:0px;
-   
+    margin-top:5px; 
   }
   
-  h1{
-    padding-top: 5px;
+  .h1{
+    padding-top: 15px;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 50px;
+    color: #383737;
   }
-  h2{
+  .h2{
     padding-top:15px;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 35px;
-    color: #ffeee9;
+    color: #383737;
   }
-  h3 {
+  .h3 {
   padding-top: 10px;
   font-family: 'Wallpoet', 'sans-serif';
   font-size: 20px;
-  color:#ffeee9;
+  color: #383737;
   }
-  p{
+
+  p {
     padding-top:5px;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
     text-align: justify;
-  
+
   }
   
-  h2 a:visited {
+  .h2 a:visited {
     padding-top: 10px;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 20px;
-    color:#9f57bb;
+    color:#e47106;
     
   }
   
@@ -53,16 +57,14 @@
     padding-top: 10px;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 20px;
-    color:#54d896;
+    color:#383737;
   }
   
-  header {
+  .header {
     margin-top:0.5em;
     padding:1em;
-    position:inherit;
     font-size: 48px;
-    font-family: 'Wallpoet', 'sans-serif';
-    color: #5d473a;
+    font-family: 'Wallpoet', 'sans-serif'; 
   }
   
   main {
@@ -71,7 +73,7 @@
     display:block;
     width: 85%;
     height: 85%;
-    background-image: linear-gradient(to bottom,#baaa91, #ae9a64);
+    background-image:linear-gradient(to bottom, #e95f5c, #a7a564);
   }
     
   input {
@@ -120,8 +122,7 @@
   .hero {
     padding: 1em;
     margin-top: 2em;
-    background-image:url("/images/background.jpg");
-    background-size: cover;
+   
   }
   .footer{
     text-align: center;
