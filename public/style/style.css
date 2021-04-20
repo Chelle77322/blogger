@@ -16,6 +16,7 @@
     padding: 3%;
     margin: auto;
     margin-top:5px; 
+    margin-bottom: 0px;
   }
   
   .h1{
@@ -73,13 +74,13 @@
   
   .main {
     padding:20px;
-    margin-top:2em;
+    margin-top:10px;
     display:block;
     width: 85%;
     height: 85%;
     margin-left: 100px;
     margin-right: 100px;
-    background-image:linear-gradient(to bottom, #e95f5c, #a7a564);
+    
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
     color: #383737;
@@ -137,6 +138,7 @@
     max-width: 100%;
     padding:5px;
     margin-bottom:0px;
+    margin-top: 500px;
     background-image:linear-gradient(to bottom,#a7a564, #e95f5c);
     text-decoration: none;
     font-family: 'Wallpoet', 'sans-serif';
