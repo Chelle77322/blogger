@@ -79,6 +79,8 @@
     width: 85%;
     height: 85%;
    align-self: center;
+   float: right;
+   margin-left: 200px;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
     color: #383737;
