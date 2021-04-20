@@ -185,8 +185,6 @@
   }
   .posts{
     z-index:0;
-    background-color: #eee9e8;
-    backface-visibility: hidden;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
     color: #383737;
