@@ -150,7 +150,6 @@
   .card {
     padding: 5px;
     margin-top:5px;
-    position:inherit;
     background-image:linear-gradient(to bottom right,#baaa91,#ae9a64);
     width: 75%;
     height: 75%;
@@ -175,7 +174,7 @@
    color: #383737;
   }
   .allpost{
-    position:inherit;
+  z-index: inherit;
     background-color: #eee9e8;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
