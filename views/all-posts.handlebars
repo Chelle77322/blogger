@@ -1,4 +1,4 @@
-<div class="allpost">
+<div class="posts">
   {{#each posts}}
   <article class="card">
     <div class="card-header">
@@ -7,6 +7,7 @@
       </h2>
       <div>
         Posted by {{User.username}} on {{format_date createdAt}}
+        <button class = "btn"><a class = "link" href = "/dashboard/edit">Edit Post</a></button>
       </div>
     </div>
     <div class="card-body">
