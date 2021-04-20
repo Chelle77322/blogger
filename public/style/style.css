@@ -23,6 +23,10 @@
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 50px;
     color: #383737;
+    transform: translate(0, 0);
+    -moz-box-shadow: 5px 7px 9px rgba(119, 97, 24, 0.5);
+    -webkit-box-shadow: 5px 7px 9px rgba(0,0,0,.5);
+    box-shadow: 5px 7px 9px rgba(0,0,0,.5);
   }
   .h2{
     padding-top:15px;
@@ -67,7 +71,7 @@
     font-family: 'Wallpoet', 'sans-serif'; 
   }
   
-  main {
+  .main {
     padding:1em;
     margin-top:2em;
     display:block;
@@ -76,10 +80,10 @@
     background-image:linear-gradient(to bottom, #e95f5c, #a7a564);
   }
     
-  input {
+  .input {
       width: 100%;
-      border: 1px solid #ccc;
-      background: #FFF;
+      border: 3px groove #383737;
+      background-image:linear-gradient(to bottom, #eee9e8, #e95f5c);;
       margin: 0 0 5px;
       padding: 10px;
   }
@@ -88,8 +92,8 @@
     background-color: #5cc3e8;
     transform: translate(0, 0);
     -moz-box-shadow: 5px 7px 9px rgba(119, 97, 24, 0.5);
-  -webkit-box-shadow: 5px 7px 9px rgba(0,0,0,.5);
-  box-shadow: 5px 7px 9px rgba(0,0,0,.5);
+    -webkit-box-shadow: 5px 7px 9px rgba(0,0,0,.5);
+    box-shadow: 5px 7px 9px rgba(0,0,0,.5);
   }
   
   .btn:hover {
