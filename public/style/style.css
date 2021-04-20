@@ -175,7 +175,7 @@
   }
   .allpost{
   z-index: inherit;
-    background-color: #eee9e8;
+  background-image:linear-gradient(to bottom right,  #ae9a64, #e95f5c);
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
     color: #383737;
@@ -183,7 +183,7 @@
   }
   .posts{
     z-index:0;
-    background-color: #eee9e8;
+    background-image:linear-gradient(to bottom right,  #ae9a64, #e95f5c);
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
     color: #383737;
