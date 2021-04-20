@@ -1,7 +1,7 @@
 <div class="posts">
   {{#each posts}}
   <article class="card">
-    <a class="link" href="/dashboard/edit/{{id}}">
+    <a class="link" href="/dashboard/edit/{{post.id}}">
       <span>{{title}}</span>
       <span>{{format_date createdAt}}</span>
     </a>
