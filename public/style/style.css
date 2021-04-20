@@ -78,9 +78,7 @@
     display:block;
     width: 85%;
     height: 85%;
-    margin-left: 100px;
-    margin-right: 100px;
-    
+   align-items: center;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
     color: #383737;
@@ -89,7 +87,7 @@
   .input {
       width: 100%;
       border: 3px groove #383737;
-      background-image:linear-gradient(to bottom, #eee9e8, #e95f5c);;
+      background-image:linear-gradient(to bottom, #eee9e8, #e95f5c);
       margin: 0 0 5px;
       padding: 10px;
       font-family: 'Wallpoet', 'sans-serif';
@@ -100,16 +98,16 @@
    font-family: 'Wallpoet', 'sans-serif';
     font-size: 12px;
     color: #383737;
-    background-color: #5cc3e8;
+    background-color:#e95f5c;
     transform: translate(0, 0);
-    -moz-box-shadow: 5px 7px 9px rgba(119, 97, 24, 0.5);
-    -webkit-box-shadow: 5px 7px 9px rgba(0,0,0,.5);
-    box-shadow: 5px 7px 9px rgba(0,0,0,.5);
+    -moz-box-shadow: 8px 9px 11px rgba(245, 221, 11, 0.5);
+    -webkit-box-shadow: 8px 9px 11px rgba(139, 40, 40, 0.5);
+    box-shadow: 8px 9px 11px rgba(0,0,0,.5);
   }
   
   .btn:hover {
-    color:#314855;
-    background-color:#79ceb8;
+    color:#383737;
+    background-color:#e95f5c;
     transform: translate(0, 0);
     -moz-box-shadow: 5px 7px 9px rgba(119, 97, 24, 0.5);
   -webkit-box-shadow: 5px 7px 9px rgba(0,0,0,.5);
@@ -150,28 +148,30 @@
   .card {
     padding: 5px;
     margin-top:5px;
-    background-image:linear-gradient(to bottom right,#baaa91,#ae9a64);
+    background-image:linear-gradient(to bottom right,#a7a564,#e95f5c);
     width: 75%;
     height: 75%;
+    align-self: center;
     -moz-box-shadow: 5px 7px 9px rgba(119, 97, 24, 0.5);
     -webkit-box-shadow: 5px 7px 9px rgba(0,0,0,.5);
     box-shadow: 5px 7px 9px rgba(0,0,0,.5);
   }
   
   .card-header {
-    padding-top: 10px;
+    padding-top: 4px;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 20px;
     color: #383737;
+    text-align: center;
   }
   
   .card-body {
     padding: 10px;
-  z-index: 1;
-   background-image:linear-gradient(to bottom right, #ae9a64, #5d473a);
-   font-family: 'Wallpoet', 'sans-serif';
-   font-size: 14px;
-   color: #383737;
+    z-index: 1;
+    background-image:linear-gradient(to bottom right, #ae9a64, #5d473a);
+    font-family: 'Wallpoet', 'sans-serif';
+    font-size: 14px;
+    color: #383737;
   }
   .allpost{
   z-index: inherit;
@@ -195,10 +195,14 @@
   .form-input,
   .form-textarea {
     display: block;
+    font-size: 12 px;
+    margin: 0 0 0 5px;
+    background-image:linear-gradient(to bottom, #eee9e8, #e95f5c);
+    font-family: 'Wallpoet', 'sans-serif';
   }
   
   .form-label {
-    font-size: 1.1rem;
+    font-size: 12 px;
     margin: 0 0 0 5px;
     background-image:linear-gradient(to bottom, #eee9e8, #e95f5c);
     font-family: 'Wallpoet', 'sans-serif';
