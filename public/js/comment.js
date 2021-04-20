@@ -1,4 +1,4 @@
-
+//Adds a comment to an existing blog post
 const commentFormHandler = async function(event) {
     event.preventDefault();
   
