@@ -159,15 +159,15 @@
   }
   
   .card-header {
-    color: var(--primary);
-    background-color: var(--dark);
-    padding: 1%;
-    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+    padding-top: 10px;
+    font-family: 'Wallpoet', 'sans-serif';
+    font-size: 20px;
+    color: #383737;
   }
   
   .card-body {
     padding: 10px;
-    position:inherit;
+  z-index: 1;
    background-image:linear-gradient(to bottom right, #ae9a64, #5d473a);
    font-family: 'Wallpoet', 'sans-serif';
    font-size: 14px;
@@ -175,6 +175,14 @@
   }
   .allpost{
   z-index: inherit;
+    background-color: #eee9e8;
+    font-family: 'Wallpoet', 'sans-serif';
+    font-size: 14px;
+    color: #383737;
+
+  }
+  .posts{
+    z-index: inherit;
     background-color: #eee9e8;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
