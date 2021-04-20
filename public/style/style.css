@@ -185,7 +185,7 @@
   }
   .posts{
     z-index:0;
-    background-image:linear-gradient(to bottom right,  #ae9a64, #e95f5c);
+    background-color: #eee9e8;
     font-family: 'Wallpoet', 'sans-serif';
     font-size: 14px;
     color: #383737;
