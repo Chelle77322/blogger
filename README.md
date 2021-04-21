@@ -8,6 +8,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [QRCode](#qrcode)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -16,6 +17,10 @@
 💻 npm install express npm install mysql
 ## Usage
 📖The Blogger Me project can be used freely with acknowledgment
+
+## QRCode
+![image](https://user-images.githubusercontent.com/73085179/115483553-23876c00-a290-11eb-93a4-3a8e1b3f0aba.png)
+
 ## License
 ![badge](https://img.shields.io/badge/license-GNU-brightgreen)
 <br />
